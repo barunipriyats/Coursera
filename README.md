@@ -7,3 +7,7 @@ This repository contains my solutions to the assignments of the Coursera course
 
 ### Module 2
 * [Solution](https://barunipriyats.github.io/Coursera/module2-solution/)
+
+### Module 3
+* [Solution](https://barunipriyats.github.io/Coursera/module3-solution/)
+
