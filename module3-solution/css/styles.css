@@ -1,0 +1,153 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+#header-nav {
+    border-radius: 0;
+    border: 0;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #fff;
+}
+
+.navbar-collapse {
+    border-top: 0;
+}
+
+#header-nav .container {
+    background-color: grey;
+    padding-top: 16px;
+    padding-bottom: 20px;
+    border: 2px solid #000;
+    width: 100%;
+}
+
+.navbar-brand h1 {
+    font-size: 1.8em;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+    color: #000;
+    padding-left: 15px;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
+#collapsable-nav {
+    background-color: grey;
+    color: white;
+    font-size: 1.4em;
+}
+
+#nav-list {
+    background-color: #fff;
+}
+
+#nav-list li {
+    border: 1px solid #000;
+}
+
+#nav-list a {
+    text-align: center;
+    font-weight: bolder;
+    color: #000;
+    font-size: 1.2em;
+}
+
+#nav-list a:hover {
+    background-color: grey;
+}
+
+#nav-list li a p:nth-child(1) {
+    padding-top: 20px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 2px solid #000;
+}
+
+/* Main Content */
+#main-content h1 {
+    color: #000;
+    font-weight: bolder;
+    font-size: 2.8em;
+    padding-bottom: 20px;
+}
+
+.chicken-container, .beef-container, .sushi-container {
+    background-color: grey;
+    color: #000;
+    margin-bottom: 50px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.chicken-title, .beef-title, .sushi-title {
+    font-weight: bolder;
+    font-size: 2.2em;
+}
+
+.chicken-description, .beef-description, .sushi-description {
+    font-weight: lighter;
+    font-size: 1.8em;
+}
+
+/* Large devices only */
+@media (min-width: 992px) {
+}
+
+/* Medium devices only */
+@media (min-width: 768px) and (max-width: 991px) {
+    #main-content h1 {
+        color: #000;
+        font-weight: bolder;
+        font-size: 2.4em;
+        padding-bottom: 20px;
+    }
+    .chicken-title, .beef-title, .sushi-title {
+        font-weight: bolder;
+        font-size: 1.8em;
+    }
+
+    .chicken-description, .beef-description, .sushi-description {
+        font-weight: lighter;
+        font-size: 1.6em;
+    }
+}
+
+/* Small devices only */
+@media (max-width: 767px) {
+    #main-content h1 {
+        color: #000;
+        font-weight: bolder;
+        font-size: 2.4em;
+        padding-bottom: 10px;
+        padding-top: 0;
+        margin-top: 0;
+    }
+
+    .chicken-title, .beef-title, .sushi-title {
+        font-weight: bolder;
+        font-size: 2em;
+    }
+
+    .chicken-description, .beef-description, .sushi-description {
+        font-weight: 600;
+        font-weight: normal;
+        font-size: 1.3em;
+    }
+
+    .chicken-container, .beef-container, .sushi-container {
+        width: 80%;
+        margin-left: 60px;
+        margin-right: 55px;
+    }
+    
+}
