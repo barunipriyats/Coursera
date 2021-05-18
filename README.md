@@ -11,3 +11,6 @@ This repository contains my solutions to the assignments of the Coursera course
 ### Module 3
 * [Solution](https://barunipriyats.github.io/Coursera/module3-solution/)
 
+### Module 4
+* [Solution](https://barunipriyats.github.io/Coursera/module4-solution/)
+
